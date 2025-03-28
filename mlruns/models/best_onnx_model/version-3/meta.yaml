@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1743159212853
+current_stage: None
+description: ''
+last_updated_timestamp: 1743159212853
+name: best_onnx_model
+run_id: 5027488af5cd4388850cf5c1a4eb4c64
+run_link: ''
+source: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/5027488af5cd4388850cf5c1a4eb4c64/artifacts/best_model
+status: READY
+status_message: null
+storage_location: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/5027488af5cd4388850cf5c1a4eb4c64/artifacts/best_model
+user_id: null
+version: 3

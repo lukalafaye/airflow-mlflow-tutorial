@@ -1,0 +1,16 @@
+artifact_uri: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/3dab762695f8442eaa450048edda4227/artifacts
+deleted_time: 1743158930905
+end_time: 1743156047570
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 3dab762695f8442eaa450048edda4227
+run_name: merciful-turtle-418
+run_uuid: 3dab762695f8442eaa450048edda4227
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743156044326
+status: 3
+tags: []
+user_id: linus

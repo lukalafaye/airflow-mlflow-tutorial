@@ -1,0 +1,16 @@
+artifact_uri: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/4f0deb481e764653be2b9bfa4012efa0/artifacts
+deleted_time: 1743158930907
+end_time: 1743156040169
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 4f0deb481e764653be2b9bfa4012efa0
+run_name: skillful-doe-175
+run_uuid: 4f0deb481e764653be2b9bfa4012efa0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743156040151
+status: 3
+tags: []
+user_id: linus

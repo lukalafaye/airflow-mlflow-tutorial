@@ -1,0 +1,16 @@
+artifact_uri: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/fe6593fabc9340b5984572e87489e265/artifacts
+deleted_time: 1743158930911
+end_time: 1743155256893
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: fe6593fabc9340b5984572e87489e265
+run_name: upset-shrike-567
+run_uuid: fe6593fabc9340b5984572e87489e265
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743155256878
+status: 3
+tags: []
+user_id: linus

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/47737c63e56a4aab918edd02dec34ea0/artifacts
+end_time: 1743160192044
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 47737c63e56a4aab918edd02dec34ea0
+run_name: aged-penguin-297
+run_uuid: 47737c63e56a4aab918edd02dec34ea0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743160188291
+status: 3
+tags: []
+user_id: linus

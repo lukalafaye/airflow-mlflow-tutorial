@@ -1,0 +1,16 @@
+artifact_uri: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/15a4b4d071e74445bab70246653a7bff/artifacts
+deleted_time: 1743158930911
+end_time: 1743155250355
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 15a4b4d071e74445bab70246653a7bff
+run_name: crawling-fly-85
+run_uuid: 15a4b4d071e74445bab70246653a7bff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743155247308
+status: 3
+tags: []
+user_id: linus

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/linus/Documents/Etudes/TSP/projet_ml/src/mlruns/0/aebb04dce92643a885215a84acd569f2/artifacts
+end_time: 1743158701594
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aebb04dce92643a885215a84acd569f2
+run_name: model_comparison
+run_uuid: aebb04dce92643a885215a84acd569f2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743158701543
+status: 3
+tags: []
+user_id: linus

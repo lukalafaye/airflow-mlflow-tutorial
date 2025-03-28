@@ -1,0 +1,15 @@
+artifact_uri: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/193532e6316d439ead709c7255d65270/artifacts
+end_time: 1743160370915
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 193532e6316d439ead709c7255d65270
+run_name: youthful-stag-818
+run_uuid: 193532e6316d439ead709c7255d65270
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743160367542
+status: 3
+tags: []
+user_id: linus

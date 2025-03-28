@@ -1,0 +1,15 @@
+artifact_uri: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/e6275479d30746728c064c6f7edb5c4c/artifacts
+end_time: 1743160308234
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e6275479d30746728c064c6f7edb5c4c
+run_name: skittish-fly-679
+run_uuid: e6275479d30746728c064c6f7edb5c4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743160308218
+status: 3
+tags: []
+user_id: linus

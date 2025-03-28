@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1743159292098
+current_stage: None
+description: ''
+last_updated_timestamp: 1743159292098
+name: iris_best_model
+run_id: aed850bc33544552b41c3711adfca886
+run_link: ''
+source: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/aed850bc33544552b41c3711adfca886/artifacts/best_model
+status: READY
+status_message: null
+storage_location: file:///home/linus/Documents/Etudes/TSP/projet_ml/mlruns/0/aed850bc33544552b41c3711adfca886/artifacts/best_model
+user_id: null
+version: 1
