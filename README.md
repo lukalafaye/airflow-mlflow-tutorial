@@ -4,7 +4,7 @@ Ce projet présente un pipeline complet de machine learning qui intègre :
 - Ingestion et prétraitement des données
 - Entraînement et validation de modèles (régression logistique et random forest)
 - Orchestration avec airflow
-- Suivi des expérimentations et gestion des modèles avec mlflow
+- Suivi des expérimentations et gestion des modèles avec MLflow
 - Déploiement du modèle via une api rest
 - Conteneurisation de l'environnement avec docker
 
@@ -52,32 +52,45 @@ La structure du projet :
    `source .venv/bin/activate`
 3. Installer les dépendances :
    `pip install -r requirements.txt`
-4. Lancer le serveur mlflow (tracking sur http://localhost:5000) :
-   `mlflow server --backend-store-uri sqlite:///mlflow.db --default-artifact-root ./mlruns --host 0.0.0.0 --port 5000`
 
 ## Utilisation
 
 ### Airflow
 
-- Copier le fichier airflow_dags/pipeline_ml_dag.py dans le répertoire des dags d'airflow
-- Accéder à http://localhost:8080 et déclencher manuellement le dag
+Initialiser la base de données et le compte admin :
+```
+airflow db init
+airflow users create \
+  --username admin \
+  --firstname FIRST_NAME \
+  --lastname LAST_NAME \
+  --role Admin \
+  --email admin@example.com
+```
+      
+Modifier les paramètres de `airflow/airflow.cfg`:
+```
+dags_folder = /chemin/vers/le/dossier/airflow_dags
+load_examples = False
+```
 
-### MLFlow
+Lancer airflow: `airflow standalone` et accéder à http://localhost:8080 pour déclencher manuellement le dag.
 
-- Consulter http://localhost:5000 pour suivre les runs, paramètres, métriques et modèles
+### MLflow
 
-### docker
+Lancer MLflow avec `mlflow ui` et consulter http://localhost:5000 pour suivre les runs, paramètres, métriques et modèles.
+
+### Docker
 
 1. Construire l'image :
    `docker build -t airflow .`
 2. Lancer un conteneur :
    `docker run -it --name projet_ml_container airflow`
-   dans le conteneur, exécuter par exemple :
-   `python3 src/validate.py`
+   puis dans le conteneur, exécuter les scripts Python de `src/`
 
 ### Déploiement du modèle
 
-Pour servir le modèle via mlflow, exécutez :
+Pour servir le modèle via MLflow, exécutez :
    `export MLFLOW_TRACKING_URI=http://localhost:5000`
    `mlflow models serve -m "models:/iris_best_model/1" --port 1234 --no-conda`
 Cela lance une api rest sur le port 1234.
@@ -103,8 +116,5 @@ curl -X POST http://localhost:1234/invocations \
 
 ## Notes
 
-- Le modèle est logué et enregistré dans mlflow ; consultez l'interface web pour vérifier que paramètres, métriques et modèles sont corrects.
-- La gestion des états dans mlflow est remplacée par des alias et tags.
-
-## Licence
-
+- Le modèle est logué et enregistré dans MLflow ; consultez l'interface web pour vérifier que paramètres, métriques et modèles sont corrects.
+- La gestion des états dans Mlflow est remplacée par des alias et tags.
